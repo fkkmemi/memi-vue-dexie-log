@@ -44,9 +44,9 @@ onUnmounted(() => {
   <div>    
     <div>{{ count }}</div>
     <div>
-      <btn @click="logAdd" label="Add" />
-      <btn @click="clear" label="Clear" />
-      <btn @click="saveFile" label="Save" />
+      <button @click="logAdd"  >add</button>
+      <button @click="clear"  >clear</button>
+      <button @click="saveFile"  >save</button>
     </div>      
      
     <MemiLogViewer />
